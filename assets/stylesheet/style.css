@@ -6,7 +6,6 @@ body{
 }
 .logo{
     position: absolute;
-    width: 121.21px;
     height: 48px;
     left: 120px;
     top: 24px;
@@ -20,10 +19,8 @@ nav{
     color: #272626;
 }
 .drpdn{
-    width: 10px;
-    height: 5px;
-    left: 565.89px;
-    top: 45.5px;
+    width: 12px;
+    height: 7px;
 }
 #lst-1, #lst-2, #lst-3, #lst-4{
     color: #272626;
@@ -48,10 +45,140 @@ nav{
     border-radius: 6px;
 }
 .hero-section{
-    background-image: url("/assets/images/hero-bg.svg");
-    height: 90vh;
+    width: 100%;
+    height: 89vh;
     background-size: cover;
-    background-repeat: no-repeat;
-    width: auto;
+    background-image: url("/assets/images/hero-bg.jpg");
+    border-radius: 0px;
     
+}
+.hero-head{
+    position: relative;
+    top: 200px;
+    font-family: Larsseit;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.healthcare{
+    text-decoration: underline;
+}
+.head-para{
+    position: relative;
+    top: 230px;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero-btn{
+    position: relative;
+    width: 234px;
+    height: 52px;
+    left: 41%;
+    top: 230px;
+    background: #2C68F6;
+    border: 2px solid #2C68F6;
+    border-radius: 6px;
+}
+.hero-sub-para{
+    position: relative;
+    top: 250px;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.business-sec-des{
+    position: absolute;
+    left: 620px;
+    top: 930px;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1A1A1A;
+
+}
+
+.lt, .air, .mus, .sie, .ben, .elgi, .mani, .mak{
+    border-width: 0px;
+}
+.lt{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 161.94px;
+    top: 1024px;
+    margin-left: 50px;
+}
+.air{
+    position: absolute;
+    width: 128px;
+    height: 64px;
+    left: 261.94px;
+    top: 1024px;
+    margin-left: 50px;
+}
+.mus{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 425.94px;
+    top: 1024px;
+    margin-left: 50px;
+}
+.sie{
+    position: absolute;
+    width: 113.78px;
+    height: 64px;
+    left: 525.94px;
+    top: 1024px;
+    margin-left: 50px;
+}
+.ben{
+    position: absolute;
+    width: 96px;
+    height: 72px;
+    left: 675.71px;
+    top: 1024px;
+    margin-left: 50px;
+}
+.elgi{
+    position: absolute;
+    width: 110.81px;
+    height: 49.95px;
+    left: 807.71px;
+    top: 1024px;
+    margin-left: 50px;
+}
+.mani{
+    position: absolute;
+    width: 159.54px;
+    height: 49.95px;
+    left: 954.53px;
+    top: 1024px;
+    margin-left: 50px;
+}
+.mak{
+    position: absolute;
+    width: 128px;
+    height: 64px;
+    left: 1150.06px;
+    top: 1024px;
+    margin-left: 50px;
 }

@@ -543,7 +543,6 @@ nav{
     position: absolute;
     width: 294.98px;
     height: 78px;
-    left: ;
     top: 7em;
     font-family: 'Larsseit';
     font-style: normal;
@@ -564,15 +563,10 @@ nav{
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
-    /* identical to box height, or 144% */
-
     display: flex;
     align-items: center;
     text-align: center;
     text-decoration-line: underline;
-
-    /* Netcon Black */
-
     color: #1A1A1A;
 }
 #jumbo-card{
@@ -639,15 +633,10 @@ nav{
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
-    /* identical to box height, or 144% */
-
     display: flex;
     align-items: center;
     text-align: center;
     text-decoration-line: underline;
-
-    /* Netcon Blue */
-
     color: #2C68F6;
 }
 .right-arrow7{

@@ -723,7 +723,7 @@ nav{
     width: 824px;
     height: 192px;
     top: 9.3em;
-    left: 1120px;
+    left:37.6em;
     font-family: 'Larsseit';
     font-style: normal;
     font-weight: 400;
@@ -738,7 +738,7 @@ nav{
     position: absolute;
     width: 64px;
     height: 64px;
-    left: 72em;
+    left: 75em;
     top: 38.3em;
     opacity: 0.4;
     border-radius: 20px;
@@ -757,4 +757,79 @@ nav{
     align-items: center;
     color: #FFFFFF;
     opacity: 0.4;
+}
+.smile{
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 120px;
+    top: 5584.5px;
+}
+.smile-head{
+    position: absolute;
+    width: 792px;
+    height: 108px;
+    left: 120px;
+    top: 5635px;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;
+}
+
+.box1{
+    position: absolute;
+    width: 380px;
+    height: 294px;
+    left: 120px;
+    top: 5807px;
+    background: #F2F2F2;
+    border-radius: 16px;
+}
+.box2{
+    position: absolute;
+    width: 380px;
+    height: 294px;
+    left: 532px;
+    top: 5807px;
+    background: #F2F2F2;
+    border-radius: 16px;
+}
+.box3{
+    position: absolute;
+    width: 380px;
+    height: 294px;
+    left: 944px;
+    top: 5809px;
+    background: #F2F2F2;
+    border-radius: 16px;
+}
+.box4{
+    position: absolute;
+    width: 380px;
+    height: 294px;
+    left: 1356px;
+    top: 5809px;
+    background: #F2F2F2;
+    border-radius: 16px;
+}
+.aircraft{
+    width: 48px;
+    height: 48px; 
+}
+.building{
+    width: 48px;
+    height: 48px;
+}
+.cap{
+    width: 48px;
+    height: 48px;
+}
+.cap2{
+    width: 48px;
+    height: 48px;
 }

@@ -818,18 +818,653 @@ nav{
     border-radius: 16px;
 }
 .aircraft{
+    position: relative;
+    top: 3em;
+    left: 2em;
     width: 48px;
     height: 48px; 
 }
 .building{
+    position: relative;
+    top: 3em;
+    left: 2em;
     width: 48px;
     height: 48px;
 }
 .cap{
+    position: relative;
+    top: 3em;
+    left: 2em;
     width: 48px;
     height: 48px;
 }
 .cap2{
+    position: relative;
+    top: 3em;
+    left: 2em;
     width: 48px;
     height: 48px;
+}
+.aircraft-txt{
+    position: absolute;
+    width: 162px;
+    height: 32px;
+    left:1.2em;
+    top:5.3em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;  
+}
+.build-txt{
+    position: absolute;
+    left:1.2em;
+    top:5.3em;
+    height: 32px;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;
+}
+.cap-txt{
+    position: absolute;
+    height: 32px;
+    left:1.2em;
+    top:5.3em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;
+}
+.cap2-txt{
+    position: absolute;
+    height: 32px;
+    left:1.2em;
+    top:5.3em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;
+}
+.aircarft-msg{
+    position: absolute;
+    width: 304.95px;
+    height: 66px;
+    left: 1.9em;
+    top:11em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;
+}
+.build-msg{
+    position: absolute;
+    width: 304.95px;
+    height: 66px;
+    left: 1.9em;
+    top:11em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;
+}
+.cap-msg{
+    position: absolute;
+    width: 304.95px;
+    height: 66px;
+    left: 1.9em;
+    top:11em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;
+}
+.cap2-msg{
+    position: absolute;
+    width: 304.95px;
+    height: 66px;
+    left: 1.9em;
+    top:11em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;
+}
+.navigate{
+    position: absolute;
+    width: 72px;
+    height: 33px;
+    left: 1246px;
+    top: 5711px;
+    cursor: pointer;
+}
+.free{
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    left: 120px;
+    top: 6352px;
+}
+.free-head{
+    position: absolute;
+    width: 538.64px;
+    height: 162px;
+    left: 120px;
+    top: 6406.24px;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;
+}
+.free-txt{
+    position: absolute;
+    width: 506.7px;
+    height: 52px;
+    left: 120px;
+    top: 6592.24px;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #1D2222;
+}
+.free-btn{
+    position: absolute;
+    padding: 10px;
+    left: 120px;
+    top: 417em;
+}
+.free-img{
+    position: absolute;
+    width: 721.43px;
+    height: 550px;
+    left: 50em;
+    top: 6269px;
+    border-radius: 48px 0px 0px 48px;
+}
+.footer-dark{
+    background-color: #0D0E10;
+    position: relative;
+    top: 250em;
+    height: 50em;
+}
+.footer-icon{
+    position: absolute;
+    width: 121.21px;
+    height: 48px;
+    left: 120px;
+    top: 5em;
+}
+.hi-netcon{
+    position: absolute;
+    width: 89px;
+    height: 26px;
+    left: 10.3em;
+    top: 14.3em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.footer-head1{
+    position: absolute;
+    width: 287px;
+    height: 32px;
+    left: 123px;
+    top: 6.5em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.footer-head2{
+    position: absolute;
+    width: 185px;
+    height: 32px;
+    left: 123px;
+    top: 8.5em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.footer-head3{
+    position: absolute;
+    width: 97px;
+    height: 32px;
+    left: 123px;
+    top: 10.5em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.footer-head4{
+    position: absolute;
+    width: 132px;
+    height: 32px;
+    left: 123px;
+    top: 12.5em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.ind{
+    position: absolute;
+    width: 52px;
+    height: 26px;
+    left: 564.79px;
+    top: 14.3em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.ind-head1{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 564.79px;
+    top: 10.3em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.ind-head2{
+    position: absolute;
+    width: 132px;
+    height: 30px;
+    left: 564.79px;
+    top: 12.5em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.ind-head3{
+    position: absolute;
+    width: 55px;
+    height: 30px;
+    left: 564.79px;
+    top: 15em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.ind-head4{
+    position: absolute;
+    width: 92px;
+    height: 30px;
+    left: 564.79px;
+    top: 17.3em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.ind-head5{
+    position: absolute;
+width: 63px;
+height: 30px;
+left: 564.79px;
+top: 19.5em;
+font-family: 'Larsseit';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+.company{
+    position: absolute;
+    width: 52px;
+    height: 26px;
+    left: 797.76px;
+    top: 14.3em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.com-head1{
+    position: absolute;
+    width: 82px;
+    height: 30px;
+    left: 797.76px;
+    top: 10.3em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.com-head2{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    left: 797.76px;
+    top: 12.5em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.com-head3{
+    position: absolute;
+    width: 72px;
+    height: 30px;
+    left: 797.76px;
+    top: 15em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.contact{
+    position: absolute;
+    width: 43px;
+    height: 26px;
+    left: 981.43px;
+    top: 14.3em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.con-head1{
+    position: absolute;
+    width: 198px;
+    height: 30px;
+    left: 981.43px;
+    top: 10.3em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.con-head2{
+    position: absolute;
+    height: 30px;
+    left: 981.43px;
+    top: 12.5em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.info{
+    text-decoration: underline;
+    text-decoration-thickness:1px;
+}
+.social{
+    position: absolute;
+    width: 32px;
+    height: 26px;
+    left: 981.43px;
+    top: 27em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.linked{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 981.43px;
+    top: 22.5em;
+}
+.twit{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1024.43px;
+    top: 22.5em;
+}
+.ruler{
+    position: absolute;
+    width: 1196.47px;
+    height: -5px;
+    left: 120px;
+    top: 32em;
+    color: #FFFFFF;
+}
+.fold{
+    position: absolute;
+    width: 196px;
+    height: 32px;
+    left: 120px;
+    top: 17.5em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.footer-txt{
+    position: absolute;
+    width: 145px;
+    height: 26px;
+    left: 120px;
+    top: 50.7em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.mail-check{
+    position: absolute;
+    width: 50px;
+    height: 48px;
+    left: 349.53px;
+    top: 35em;
+    padding:20px;
+    color: #FFFFFF;
+    background-color: #0D0E10;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+}
+.footer-btn{
+    position: absolute;
+    width: 202.11px;
+    height: 48px;
+    left: 351px;
+    top: 35em;
+    background: #2C68F6;
+    border: 2px solid #2C68F6;
+    border-radius: 0px 6px 6px 0px;
+}
+.input-group{
+    width:37em;
+    position: relative;
+    bottom: 2.7em;
+}
+.footer-msg{
+    position: absolute;
+    width: 145px;
+    height: 26px;
+    left: 6.1em;
+    top: 49.5em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.private{
+    position: absolute;
+    width: 73px;
+    height: 26px;
+    left: 10.3em;
+    top:58em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.cookie{
+    position: absolute;
+    width: 78px;
+    height: 26px;
+    left: 247.95px;
+    top: 58em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.last-butnot-least{
+    position: absolute;
+    width: 645px;
+    height: 26px;
+    left: 115.95px;
+    top: 62em;
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
 }
